@@ -13,7 +13,7 @@ main ()
   char message[1000];		// sets character limit for user
 
   printf ("Enter a message: ");
-  gets (message);		//receives message and stores it into message (gets() doesn't work on eclipse che but works on onlinegdb)
+  gets (message);		//receives message and stores it into message (gets() doesn't work on eclipse che but works on sublime text and onlinegdb)
 
   printf
     (" Press 1 to Rot Encrpt \n Press 2 to Rot Decrypt\n Press 3 to Sub Encrypt\n Press 4 to Sub Decrypt\n #");
